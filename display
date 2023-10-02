@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Categories</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 10px;
+            padding: 0;
+            background-color: #000000;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-content: center;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 800px; /* Set the maximum width for the container */
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            flex-wrap: wrap;
+            max-width: 1200px; /* Set the maximum width for the row */
+            margin-bottom: 20px; /*Added margin to separate rows */
+        }
+
+        .widget {
+            width: 100px;
+            background-color: #FF8000;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            margin: 10px;
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            justify-content: top;
+            padding: 10px;
+            box-sizing: border-box;
+            min-height: 100px; /* Minimum height for the widget*/
+        }
+
+        .widget h2 {
+            margin-top: 0;
+            font-size: 13px; Initial font size */
+            flex-grow: 10;/* Allow content to grow within the widget*/
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .widget a {
+            text-decoration: none;
+            color: #000000;
+            font-weight: bold;
+        }
+
+        .widget:hover {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container" style="margin-top: 20px;">
+        <div class="row">
+            <div class="widget">
+                <h2><a href="#">Emergency</a></h2>
+            </div>
+            <div class="widget">
+                <h2><a href="#">Plumbing</a></h2>
+            </div>
+            <div class="widget">
+                <h2><a href="#">Electrical</a></h2>
+            </div>
+            <div class="widget">
+                <h2><a href="#">Paint</a></h2>
+            </div>
+            <div class="widget">
+                <h2><a href="#">Appliance</a></h2>
+            </div>
+            <div class="widget">
+                <h2><a href="#">Carpentry</a></h2>
+            </div>
+            <div class="widget">
+                <h2><a href="#">Hair</a></h2>
+            </div>
+            <div class="widget">
+                <h2><a href="#">Dress</a></h2>
+            </div>
+            <div class="widget">
+                <h2><a href="#">Janitorial</a></h2>
+            </div>
+            <div class="widget">
+                <h2><a href="#">Laundry</a></h2>
+            </div>
+            <div class="widget">
+                <h2><a href="#">Pet</a></h2>
+            </div>
+            <div class="widget">
+                <h2><a href="#">Doctor</a></h2>
+            </div>
+            <div class="widget">
+                <h2><a href="#">Food</a></h2>
+            </div>
+            <div class="widget">
+                <h2><a href="#">Dentist</a></h2>
+    </div>
+</div>
+  <script>
+        // JavaScript to dynamically adjust font size
+        const widgets = document.querySelectorAll('.widget');
+        widgets.forEach(widget => {
+            const content = widget.querySelector('h2');
+            const maxHeight = parseInt(getComputedStyle(widget).height, 14);
+            
+            while (content.scrollHeight > maxHeight) {
+                let fontSize = parseFloat(getComputedStyle(content).fontSize);
+                fontSize -= 1;
+                content.style.fontSize = `${fontSize}px`;
+            }
+        });
+    </script>
+</body>
+</html>
