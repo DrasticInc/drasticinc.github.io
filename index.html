@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Service Categories</title>
+    <title>iMakeReady</title>
     <style>
         body {
             font-family: Arial;
@@ -47,7 +47,7 @@
 
         .widget h2 {
             margin-top: 0;
-            font-size: 13px; Initial font size */
+            font-size: 14px;/* Initial font size */
             flex-grow: 10;/* Allow content to grow within the widget*/
             overflow: hidden;
             text-overflow: ellipsis;
@@ -60,34 +60,35 @@
         }
 
         .widget .assignment-count {
-            position: absolute;
-            top: 50%;
-            right: 50%;
-            background-color; #007bff;
-            color: white;
+            position: unset;
+            background-color: #a50606;
+            color: rgb(255, 255, 255);
             border-radius: 50%;
-            justify-content: baseline;
-            padding: 5px 10px;
+            padding: 5px 5px;
             font-size: 16px;
+            margin-left: 50px;
         }
 
         .widget:hover {
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         }
+
     </style>
 </head>
 <body>
     <div class="container" style="margin-top: 20px;">
         <div class="row">
-            <div class="widget">
-                <div class="assignment-count">5</div>
+            <div class="widget" style="background-color:rgb(255, 5, 5);">
                 <h2><a href="#">Emergency</a></h2>
+                <div class="assignment-count">5</div>
             </div>
-            <div class="widget">
+            <div class="widget" style="background-color: rgb(36, 104, 207);">
                 <h2><a href="#">Plumbing</a></h2>
+                <div class="assignment-count">10</div>
             </div>
-            <div class="widget">
+            <div class="widget" style="background-color: rgb(255, 247, 0);">
                 <h2><a href="#">Electrical</a></h2>
+                <div class="assignment-count">20</div>
             </div>
             <div class="widget">
                 <h2><a href="#">Paint</a></h2>
