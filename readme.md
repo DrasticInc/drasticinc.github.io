@@ -1,7 +1,9 @@
 #Demo
 
-In this demo I am learning to us VSC and Github and Git.
-
-What do we need to doin order to commit a change.
-
-Testing git
+# imakeready.github.io
+<ul>
+<l>iMakeReady is the solution for adoption</l>
+<l>iMakeReady rewards everyone who contributes</l>
+<l>Take pride in what you build</l>
+<l>Real World use case</l>
+<l></l>
