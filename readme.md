@@ -8,5 +8,5 @@
 
 
 ##### 
-<img src="https://github.com/DrasticInc/drasticinc.github.io/blob/main/imakereadylogo.jpg?raw=true">
+<img src="https://github.com/DrasticInc/drasticinc.github.io/blob/main/imklogo.jpg?raw=true">
 
