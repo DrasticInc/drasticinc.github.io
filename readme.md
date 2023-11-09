@@ -3,7 +3,7 @@
 ## imakeready.github.io
 
 
-### iMakeReady is the solutions
+### iMakeReady is the solution
 * For adoption
 * Rewards everyone who contributes
 * Take pride in what you build
