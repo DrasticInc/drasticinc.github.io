@@ -1,8 +1,5 @@
 # Demo
 
-## imakeready.github.io
-
-
 ### iMakeReady is the solution
 * For adoption
 * Rewards everyone who contributes
